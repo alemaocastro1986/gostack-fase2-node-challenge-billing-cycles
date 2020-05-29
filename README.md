@@ -2,14 +2,11 @@
 
 # Bootcamp GoStack NodeJS Typescript- **CHALLENGE**
 ## __Fase 02__
+
+### **Sobre**
 Nesse desafio, você deve criar uma aplicação para continuar treinando o que você aprendeu até agora no Node.js junto ao TypeScript, utilizando o conceito de models, repositories e services!
 
 Essa será uma aplicação para armazenar transações financeiras de entrada e saída, que deve permitir o cadastro e a listagem dessas transações.
-
-### **Sobre**
-Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no Node.js!
-
-Essa será uma aplicação para armazenar repositórios do seu portfólio, que irá permitir a criação, listagem, atualização e remoção dos repositórios, e além disso permitir que os repositórios possam receber "likes".
 
 ### Requisitos:
 - **`POST /transactions`**: A rota deve receber `title`, `value` e `type` dentro do corpo da requisição, sendo `type` o tipo da transação, que deve ser `income` para entradas (depósitos) e `outcome` para saídas (retiradas). Ao cadastrar uma nova transação, ela deve ser armazenada dentro de um objeto com o seguinte formato :
